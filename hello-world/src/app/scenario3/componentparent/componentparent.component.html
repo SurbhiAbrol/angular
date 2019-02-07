@@ -1,0 +1,7 @@
+<h3>{{title}}</h3>
+
+            <label for ="parent">{{title1}}</label>
+
+            <input type = "text" name = "parent" id = "parent" (input) = "onChange($event.target.value)">
+
+            <app-componentchild [parentData]="user"></app-componentchild>

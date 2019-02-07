@@ -1,0 +1,6 @@
+<app-cardcomponent
+ *ngFor = "let im of images"
+ [imageName] = 'im["name"]'
+ [imageUrl] = 'im ["image"][2]["#text"]'
+
+ ></app-cardcomponent>

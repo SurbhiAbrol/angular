@@ -1,0 +1,5 @@
+<h1>{{message}}</h1>
+
+<app-componentchild2 (childEvent)="message=$event"> </app-componentchild2>
+
+<button (click)="parentFire(message)" type="button"></button>
